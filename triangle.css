@@ -2,6 +2,7 @@ body{
   background-color: #37474f;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url("https://orig00.deviantart.net/214d/f/2010/102/e/2/fractal_triangular_animation_by_arii_suzuki.gif");
 }
 h1{
   color: #90a4ae;
@@ -22,10 +23,22 @@ p{
   text-align:center;
   font-size: 30pt;
 }
+.button {
+  background-color: #b0bec5;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  cursor: sw-resize;
+  border-radius: 16px;
+}
 #image{
   margin-left: 480px;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  opacity: 0.8;
 }
 
 @keyframes shake {
@@ -36,15 +49,4 @@ p{
   80% { transform: translate(-2px, -2px) rotate(1deg); }
   100% { transform: translate(2px, -3px) rotate(-1deg); }
 }
-}
-.button {
-  background-color: #b0bec5;
-  border: none;
-  color: black;
-  padding: 10px 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 40px;
-  cursor: sw-resize;
-  border-radius: 16px;
 }
