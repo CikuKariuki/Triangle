@@ -1,5 +1,4 @@
 body{
-  background-color: #37474f;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://orig00.deviantart.net/214d/f/2010/102/e/2/fractal_triangular_animation_by_arii_suzuki.gif");
@@ -38,7 +37,7 @@ p{
   margin-left: 480px;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 @keyframes shake {
