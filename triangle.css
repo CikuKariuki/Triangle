@@ -24,16 +24,16 @@ p{
 }
 #image{
   margin-left: 400px;
+  animation-duration: 2s;
 }
 .button {
-  background-color: #fff;
+  background-color: #b0bec5;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
+  margin: 4px;
+  cursor: sw-resize;
   border-radius: 16px;
 }
