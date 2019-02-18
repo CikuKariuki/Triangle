@@ -14,6 +14,16 @@ HTML
 CSS
 JAVASCRIPT
 
+
+##BDD
+|BEHAVIOR. This program should handle |INPUT. When it receives |OUTPUT. It should return. |
+|:............................:|:..........................:|:...............................|
+|User keys in three equal numbers | Three equal numbers| That is an equilateral triangle.|
+|User keys in two equal numbers and one different.| Two similar numbers and one different| That is an isosceles triangle|
+|User keys in three different numbers| Three different numbers| That is a scalene triangle|
+|User keys in two numbers that add up to the third or is equal to the third| Abnormal entries |That is not a triangle|
+
+
 ## Specs
 To get an equilateral triangle, all sides must be equal.
 To get an isosceles triangle, two sides must be equal.
