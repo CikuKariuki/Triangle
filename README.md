@@ -15,7 +15,7 @@ CSS
 JAVASCRIPT
 
 
-##BDD
+## BDD
 |BEHAVIOR. This program should handle |INPUT. When it receives |OUTPUT. It should return. |
 |:............................:|:..........................:|:...............................|
 |User keys in three equal numbers | Three equal numbers| That is an equilateral triangle.|
