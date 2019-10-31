@@ -10,8 +10,7 @@ h1{
 }
 p{
   font-size: 30px;
-  font-family: 'Emilys Candy', cursive;
-  
+  font-family: 'Fira Code', monospace;
   text-align: center;
 }
 .move{
@@ -26,8 +25,8 @@ p{
   text-align: center;
   text-decoration: none;
   margin: 10px;
-  cursor: sw-resize;
   border-radius: 16px;
+  font-family: 'Fira Code', monospace;
 }
 .sides{
   border-radius:16px;
@@ -38,17 +37,19 @@ p{
   border-top:4px solid #8bc34a;
   border-left:4px solid #fb8c00;
   border-right: 4px solid #81d4fa;
+  width:300pt;
 }
 #sideB{
   border-top:4px solid #fb8c00;
   border-left: 4px solid #8bc34a;
   border-bottom: 4px solid #81d4fa;
-  
+  width:250pt;
 }
 #sideC{
   border-top: 4px solid #fb8c00;
   border-left: 4px solid #81d4fa;
   border-right: 4px solid #8bc34a;
+  width:200pt;
 }
 .button{
   padding: 20px;
@@ -58,4 +59,10 @@ p{
 }
 .button:hover{
   background-color: #b2ebf2
+}
+input{
+  font-family: 'Fira Code', monospace;
+}
+img{
+  padding-right: 70px
 }
