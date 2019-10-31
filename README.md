@@ -10,9 +10,9 @@ This is a triangle tracker. It tells what type of triangle one's measurements ca
 
 
 ## Technologies Used
-HTML
+HTML5
 CSS
-JAVASCRIPT
+JavaScript
 
 
 ## BDD
@@ -30,14 +30,14 @@ To get an isosceles triangle, two sides must be equal.
 To get a scalene triangle, none of the sides should be equal. However, the sum of any two sides of the triangle should be greater than the third side.
 If the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed.
 
-##Contact
+## Contact
 sheekokariuki@gmail.com
 
 ### License
 
 MIT License
 
-Copyright (c) [2019] [Phyllis Kariuki]
+Copyright (c) [2019] [Ciku Kariuki]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
