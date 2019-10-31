@@ -4,13 +4,14 @@ function tracker() {
   var sideC=parseInt(document.getElementById("sideC").value);
   var side = [sideA, sideB, sideC];
   if (side[0] + side[1] <= side[2] || side[0] + side[2]<=side[1] || side[1] + side[2] <= side[0]){
-    alert("That is not a triangle!");
+    document.getElementById("display").innerHTML="That is not a triangle!";
   }else if(side[0] === side[1] && side[2] === side[1] && side[0] === side[2]){
-    alert("That's an equilateral triangle");
+    document.getElementById("display").innerHTML="That's an equilateral triangle";
   }else if (side[0]===side[1] || side[1]===side[2] || side[2]===side[0]){
-    alert("That's an isosceles triangle");
-  }
-  else{
-    alert("That's a scalene triangle");
+  document.getElementById("display").innerHTML="That's an isosceles triangle"
+  }else if(side[0]=== blank || side[1] === blank || side[2] === blank){
+    document.getElementById("display").innerHTML="Please put in some numbers";
+  }else {
+    document.getElementById("display").innerHTML="That is a scalene triangle";
   }
 }

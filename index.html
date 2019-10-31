@@ -12,12 +12,15 @@
     <h1>TRIANGLE TRACKER</h1>
     <p>Key in your triangle measurements.</p>
       <form class="move" action="index.html" method="post">
-      <input type="number" name="text" value="" placeholder="Side 1" class="sides" id="sideA"><br>
-      <input type="number" name="text" value="" placeholder="Side 2" class="sides" id="sideB"><br>
-      <input type="number" name="text" value="" placeholder="Side 3" class="sides" id="sideC"><br>
+      <input type="number" name="text" value="" placeholder="Side 1" class="sides" id="sideA" required><br>
+      <input type="number" name="text" value="" placeholder="Side 2" class="sides" id="sideB" required><br>
+      <input type="number" name="text" value="" placeholder="Side 3" class="sides" id="sideC" required><br>
+      <div id="display" style="height: 20px; width: 100%;"></div>
       <button class="button" type="button" name="button" onclick="tracker()">Check</button>
       <button class="button"type="reset" value="Reset" >Try another</button>
+    
     </form>
+    
     <img src="https://clipartstation.com/wp-content/uploads/2017/11/triangel-clipart-3.png" alt="triangle" height="70px">
     <img src="https://prejuniorb2017.files.wordpress.com/2016/10/triangle.jpg" alt="triangle" height="85px">
     <img src="https://ih0.redbubble.net/image.519772615.0292/flat,1000x1000,075,f.jpg" height="80px">
